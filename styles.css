@@ -1,0 +1,129 @@
+/* Basic CSS Enhancements */
+body {
+    background-image: url("bg.image.jpg"); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    font-family: Arial, sans-serif; /* Sets a default font family */
+}
+
+
+header {
+    background: #0044cc;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav {
+    background: #003399;
+    padding: 10px 0;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: #0d3177;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+footer {
+    background: #0044cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design with Media Queries */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 0;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.5em;
+        padding: 10px 0;
+    }
+
+    nav a {
+        font-size: 1.2em;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 0.8em;
+        padding: 10px 0;
+    }
+}
+
+/* Card Styles */
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+/* Project Item Styles */
+.project-item {
+    margin-bottom: 20px;
+}
+
+
